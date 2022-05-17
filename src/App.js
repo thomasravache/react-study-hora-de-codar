@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <Frase />
       <HelloWorld />
       <SayMyName nome="Thomas"/>
       <SayMyName nome="Outro nome"/>
