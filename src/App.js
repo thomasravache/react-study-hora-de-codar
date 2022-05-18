@@ -1,4 +1,5 @@
 import Evento from './components/Evento';
+import Form from './components/Form';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Evento numero="1" />
       <Evento numero="2" />
+      <Form />
     </div>
   );
 }
